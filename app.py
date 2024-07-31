@@ -1,5 +1,6 @@
 import pandas as pd
 from pyvis.network import Network
+#Run this code in VS code and also connect the dataset
 
 df = pd.read_csv('shipping_jobs.csv').dropna(subset=['skills'])
 
